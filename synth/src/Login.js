@@ -14,7 +14,7 @@ function Login() {
 
   return (
     <div>
-      <h2>Login</h2>
+      <h2>Welcome Back</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label>Email:</label>
@@ -24,7 +24,7 @@ function Login() {
           <label>Password:</label>
           <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
         </div>
-        <button type="submit" style={{ backgroundColor: 'red', color: 'white' }}>Login</button>
+        <button type="submit" style={{ backgroundColor: 'green', color: 'white' }}>Login</button>
       </form>
     </div>
   );
